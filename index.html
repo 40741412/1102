@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/jquery.mobile-1.4.5.min.css">
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <script src="js/jquery.mobile-1.4.5.min.js"></script>
+</head>
+
+<body>
+    <div id="p0" data-role="page">
+        <div data-role="header" align="center"><h3>我的最愛</h3></div>
+        <div class = "ui-grid-b ui-responsive">
+            <div class = "ui-block-a">
+                <a href="#p1"><img src="images/JPG01.jpg" style="width:150px; height: 100px; margin-left: 38%; margin-top: 50px;">
+            <h4 style ="text-align: center; font-family: DFKai-sb;">漫威電影</h4></a></div>
+
+            <div class = "ui-block-b">
+                <a href="#p2"><img src ="images/JPG02.png" style="width:150px;  height: 100px; margin-left:38%; margin-right: 40%; margin-top:50px;">
+            <h4 style ="text-align: center; font-family: DFKai-sb;">笑話大全</h4></a></div>
+
+            <div class ="ui-block-c">
+                <a href="#p3"><img src = "images/JPG03.png" style="width:150px;  height: 100px; margin-left:37%; margin-right:40%; margin-top: 50px;">
+            <h4 style ="text-align: center; font-family: DFKai-sb;">音樂</h4></a></div>
+        </div>
+        <div class = "ui-grid-b ui-responsive">            
+            <div class = "ui-block-a">
+                <a href="#p4"><img src="images/JPG04.png" style="width:150px; height: 120px; margin-left: 38%; margin-top: 50px;">
+            <h4 style ="text-align: center; font-family: DFKai-sb;">電視節目</h4></a></div>
+        
+            <div class = "ui-block-b">
+                <a href="#p5"><img src ="images/JPG05.png" style="width:165px;  height: 115px; margin-left:37%; margin-right: 40%; margin-top:50px;">
+            <h4 style ="text-align: center; font-family: DFKai-sb;">手機遊戲</h4></a></div>
+       
+            <div class ="ui-block-c">
+                <a href="#p6"><img src = "images/JPG06.png" style="width:165px;  height: 115px; margin-left:37%; margin-right:40%; margin-top: 50px;">
+            <h4 style ="text-align: center; font-family: DFKai-sb;">水果</h4></a></div>
+            </div>
+    </div>
+
+    <div id ="p1" data-role="page">
+        <div data-role="header" align="center"><a href = #p0>返回</a><h3>漫威電影</h3></div>   
+        <div role="nfu" class="u1-content">
+            <u1 data-role="listview">
+                <li><a href="#p1-1">鋼鐵人</a></li>
+                <li><a href="#p1-2">雷神索爾</a></li>
+                <li><a href="#p1-3">綠巨人浩克</a></li>
+                <li><a href="#p1-4">蜘蛛人</a></li>
+                <li><a href="#p1-5">黑寡婦</a></li>
+            </u1>
+            </div>
+        </div>
+    </div>
+    <div id = "p1-1" data-role="page">
+        <div data-role="header" align = "center"><h3>鋼鐵人</h3></div>
+        <div role = "nfu" class = "u1-content"><img src="images/JPG07.jpg"></div>
+        <div data-role="header" data-position="fixed">
+            <a href="#p1">返回</a>
+        </div>
+    </div>
+    <div id = "p1-2" data-role="page">
+        <div data-role="header" align = "center"><h3>雷神索爾</h3></div>
+        <div role = "nfu" class = "u1-content"><img src="images/JPG08.jpg"></div>
+        <div data-role="header" data-position="fixed">
+            <a href="#p1">返回</a>
+        </div>
+    </div>
+    <div id = "p1-3" data-role="page">
+        <div data-role="header" align = "center"><h3>綠巨人浩克</h3></div>
+        <div role = "nfu" class = "u1-content"><img src="images/JPG09.jpg"></div>
+        <div data-role="header" data-position="fixed">
+            <a href="#p1">返回</a>
+        </div>
+    </div>
+    <div id = "p1-4" data-role="page">
+        <div data-role="header" align = "center"><h3>蜘蛛人</h3></div>
+        <div role = "nfu" class = "u1-content"><img src="images/JPG10.jpg"></div>
+        <div data-role="header" data-position="fixed">
+            <a href="#p1">返回</a>
+        </div>
+    </div>
+    <div id = "p1-5" data-role="page">
+        <div data-role="header" align = "center"><h3>黑寡婦</h3></div>
+        <div role = "nfu" class = "u1-content"><img src="images/JPG11.jpg"></div>
+        <div data-role="header" data-position="fixed">
+            <a href="#p1">返回</a>
+        </div>
+    </div>
+    <div id ="p2" data-role="page">
+        <div data-role="header" align="center"><a href = #p0>返回</a><h3>笑話大全</h3></div>
+        <div role="nfu" class="u1-content">
+            <u1 data-role="listview">
+                <li><a href="#p2-1">笑話1</a></li>
+                <li><a href="#p2-2">笑話2</a></li>
+                <li><a href="#p2-3">笑話3</a></li>
+                <li><a href="#p2-4">笑話4</a></li>
+                <li><a href="#p2-5">笑話5</a></li>
+            </u1>
+            </div>
+        </div>
+    </div>
+    <div id="p2-1" data-role="page">
+        <div data-role="header" align="center"><h3>笑話1</h3></div>
+        <div role = "main" class = "ui-content">
+            <pre>
+                     有一位客人到麥當勞點餐．．．
+                     客人：『小姐，我要一號．．．』
+                     櫃台小姐：『麻煩上樓，左邊男廁、右邊女廁！』
+                     客人苦笑的點頭說：「好的謝謝！」
+                     客人OS：『乾，小姐我是要點一號餐．．．』                    
+            </pre>
+        </div>
+        <div data-role="header" data-position="fixed">
+            <a href="#p2">返回</a>
+        </div>
+    </div>
+    <div id ="p2-2" data-role="page">
+        <div data-role="header" align="center"><h3>笑話2</h3></div>
+        <div role = "main" class = "ui-content">
+            <pre>
+                    笑話-1+1=???
+
+
+                    有一天～老師問小明＂１＋１＝多少＂
+                    
+                    小明＂不知道＂
+                    
+                    老師＂回家問家人˙˙明天再告訴我˙˙＂
+                    
+                    小明＂喔喔＂
+                    
+                    回到家--
+                    
+                    小明先去問媽媽˙˙媽媽在炒菜
+                    
+                    就說＂我不知啦！去問你爸＂
+                    
+                    小明＂喔～＂
+                    
+                    去問爸爸˙˙爸爸在看報紙
+                    
+                    就說＂你知道現在政治多亂嗎!還在吵!＂
+                    
+                    小明＂喔～＂
+                    
+                    他又去問奶奶˙˙奶奶老了耳朵聽不清楚
+                    
+                    就說＂我老了～你自己去吧˙˙＂
+                    
+                    小明＂喔～＂
+                    
+                    最後他去問姊姊˙˙姊姊在唱歌
+                    
+                    唱＂我家住再馬桶裡呀～一押一押唷～＂
+                    原歌（我家門前有塊地呀～一押一押唷～）
+                    
+                    小明隔天去學校˙˙
+                    
+                    老師問他１＋１＝？
+                    
+                    小明＂我不知道啦！去問你爸＂
+                    
+                    老師＂（怒）我再問你一次１＋１＝？
+                    
+                    小明＂你知道現在政治多亂嗎!還在吵!＂
+                    
+                    老師＂你跟我去辦公室˙˙＂
+                    
+                    小明＂我老了˙˙你自己去吧～＂
+                    
+                    老師＂（極限˙˙）你家住哪？我今天去一趟拜訪你父母˙˙
+                    
+                    小明＂我家住再馬桶裡呀～一押一押唷～
+                    
+                    老師＂˙˙˙˙˙˙˙˙˙˙
+            </pre>
+        </div>
+        <div data-role="header"  data-position="fixed">
+            <a href="#p2">返回</a>
+        </div>
+    </div>
+    <div id ="p2-3" data-role="page">
+        <div data-role="header" align="center"><h3>笑話3</h3></div>
+        <div role = "main" class = "ui-content">
+            <pre>
+                    某大學歷史系的考試中有一段是口試。
+
+                    到了某位考生時，教授問了三個問題，他都回答不出來。
+                    
+                    最後教授沒辦法，為了給他一個及格的機會，問了他最後一個問題：
+                    
+                    「美洲新大陸是誰發現的？」
+                    
+                    學生：「…………」
+                    
+                    這時教授再也忍不住，氣急敗壞的喊道：「哥倫布！」
+                    
+                    突然這名學生站起來轉身往外走去，教授趕緊把他叫住，「哎？你要去哪啊？」
+                    
+                    學生：「啊你不是在叫下一位考生了嗎？」
+                    
+                    教授：「…………」
+                    
+            </pre>
+        </div>
+        <div data-role="header"  data-position="fixed">
+            <a href="#p2">返回</a>
+        </div>
+    </div>
+    <div id ="p2-4" data-role="page">
+        <div data-role="header" align="center"><h3>笑話4</h3></div>
+        <div role = "main" class = "ui-content">
+            <pre>
+                    在一個鄉下的酒吧裡，有兩個牧師在一起喝酒，不久因喝多了而十分興奮，
+                    其中一個牧師便建議騎車去兜風。
+                    
+                    騎車的牧師就來個放開雙手騎車的特技，好死不死被巡警撞見，
+                    
+                    便被攔了下來：『酒後駕車，特技行駛，再加上兩人沒載安全帽，準罰死你們！』
+                    
+                    牧師見狀忙道：『警察大人，剛剛我沒有特技行駛，而是上帝在操縱著機車呢！』
+                    
+                    警察一聽，又拿出了罰單邊寫邊說：『三貼再加上一人沒載安全帽，簽名吧！』
+                    
+            </pre>
+        </div>
+        <div data-role="header"  data-position="fixed">
+            <a href="#p2">返回</a>
+        </div>
+    </div>
+    <div id ="p2-5" data-role="page">
+        <div data-role="header" align="center"><h3>笑話5</h3></div>
+        <div role = "main" class = "ui-content">
+            <pre>
+                    有一天,公主被魔王抓走了。
+
+                    公主大喊：「救命啊!救命啊!」
+                    
+                    魔王大笑：「哈哈!妳就叫破嗓
+                    
+                    子吧!沒有人會救妳的!」
+                    
+                    公主:「破嗓子!破嗓子」
+                    
+                    沒有人:「公主，我來救妳了!」
+                    
+                    魔王：「說曹操曹操到...」
+                    
+                    曹操：「請問你是劉備嗎?」
+                    
+                    魔王:「哇咧!見鬼了!」
+                    
+                    鬼:「我在這裡!」
+                    
+                    魔王:「Oh my god!」
+                    
+                    天神:「誰在叫我?」
+                    
+                    
+            </pre>
+        </div>
+        <div data-role="header"  data-position="fixed">
+            <a href="#p2">返回</a>
+        </div>
+    </div>
+    
+    <div id ="p3" data-role="page">
+        <div data-role="header" align="center"><a href = #p0>返回</a><h3>音樂</h3></div>
+        <div role="music" class="u1-content">
+            <u1 data-role="listview">
+                <li><a href="#p3-1">林俊傑 JJ Lin - 《將故事寫成我們 The Story Of Us》</a></li>
+                <li><a href="#p3-2">李芷婷 - 一直走【純享&動態歌詞】【2019中國好聲音第11期】</a></li>
+                <li><a href="#p3-3">艾怡良 Eve Ai -《給朱利安》</a></li>
+                <li><a href="#p3-4">林俊傑 JJ Lin - 《Wonderland》</a></li>
+                <li><a href="#p3-5">Eric周興哲 - 《至少我還記得 At Least I Remember》</a></li>
+            </u1>
+            </div>
+        </div>
+    </div>
+    <div id = "p3-1" data-role="page">
+        <div data-role="header" align = "center"><h3>林俊傑 JJ Lin -《將故事寫成我們 The Story Of Us》</h3></div>
+        <div role = "music" class = "u1-content"><iframe width="560" height="315" src="https://www.youtube.com/embed/aBwOMlSjh48" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+        <div data-role="header" data-position="fixed">
+            <a href="#p3">返回</a>
+        </div>
+    </div>
+    </div>
+    <div id = "p3-2" data-role="page">
+        <div data-role="header" align = "center"><h3>李芷婷 - 一直走【純享&動態歌詞】【2019中國好聲音第11期】</h3></div>
+        <div role = "music" class = "u1-content"><iframe width="853" height="480" src="https://www.youtube.com/embed/rQOz50Ak87g" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+        <div data-role="header" data-position="fixed">
+            <a href="#p3">返回</a>
+        </div>
+    </div>
+    </div>
+    <div id = "p3-3" data-role="page">
+        <div data-role="header" align = "center"><h3>艾怡良 Eve Ai -《給朱利安》</h3></div>
+        <div role = "music" class = "u1-content"><iframe width="853" height="480" src="https://www.youtube.com/embed/_jOAUWhSQI0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+        <div data-role="header" data-position="fixed">
+            <a href="#p3">返回</a>
+        </div>
+    </div>
+    </div>
+    <div id = "p3-4" data-role="page">
+        <div data-role="header" align = "center"><h3>林俊傑 JJ Lin - 《Wonderland》</h3></div>
+        <div role = "music" class = "u1-content"><iframe width="853" height="480" src="https://www.youtube.com/embed/2qLKi3108AY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+        <div data-role="header" data-position="fixed">
+            <a href="#p3">返回</a>
+        </div>
+    </div>
+    </div>
+    <div id = "p3-5" data-role="page">
+        <div data-role="header" align = "center"><h3>Eric周興哲 - 《至少我還記得 At Least I Remember》</h3></div>
+        <div role = "music" class = "u1-content"><iframe width="853" height="480" src="https://www.youtube.com/embed/jIzOIsQWMfg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+        <div data-role="header" data-position="fixed">
+            <a href="#p3">返回</a>
+        </div>
+    </div>
+    </div>
+    <div id ="p4" data-role="page">
+        <div data-role="header" align="center"><a href = #p0>返回</a><h3>電視節目</h3></div>
+        <div role="show" class="u1-content">
+            <u1 data-role="listview">
+                <li><a href="#p4-1">聲林之王</a></li>
+                <li><a href="#p4-2">綜藝大熱門</a></li>
+                <li><a href="#p4-3">國光幫幫忙</a></li>
+            </u1>
+            </div>
+        </div>
+    </div>
+    <div id = "p4-1" data-role="page">
+        <div data-role="header" align = "center"><h3>聲林之王</h3></div>
+        <div role = "show" class = "u1-content"><img src="images/JPG12.png"></div>
+        <div data-role="header" data-position="fixed">
+            <a href="#p4">返回</a>
+        </div>
+    </div>
+    <div id = "p4-2" data-role="page">
+        <div data-role="header" align = "center"><h3>綜藝大熱門</h3></div>
+        <div role = "show" class = "u1-content"><img src="images/JPG13.png"></div>
+        <div data-role="header" data-position="fixed">
+            <a href="#p4">返回</a>
+        </div>
+    </div>
+    <div id = "p4-3" data-role="page">
+        <div data-role="header" align = "center"><h3>國光幫幫忙</h3></div>
+        <div role = "show" class = "u1-content"><img src="images/JPG14.jpg"></div>
+        <div data-role="header" data-position="fixed">
+            <a href="#p4">返回</a>
+        </div>
+    </div>
+
+    <div id ="p5" data-role="page">
+        <div data-role="header" align="center"><a href = #p0>返回</a><h3>手機遊戲</h3></div>
+        <div role="game" class="u1-content">
+            <u1 data-role="listview">
+                <li><a href="#p5-1">傳說對決</a></li>
+                <li><a href="#p5-2">神魔之塔</a></li>
+                <li><a href="#p5-3">怪物彈珠</a></li>
+            </u1>
+            </div>
+        </div>
+    </div>
+    <div id = "p5-1" data-role="page">
+        <div data-role="header" align = "center"><h3>傳說對決</h3></div>
+        <div role = "show" class = "u1-content"><img src="images/JPG15.jpg"></div>
+        <div data-role="header" data-position="fixed">
+            <a href="#p5">返回</a>
+        </div>
+    </div>
+    </div>
+    <div id = "p5-2" data-role="page">
+        <div data-role="header" align = "center"><h3>神魔之塔</h3></div>
+        <div role = "show" class = "u1-content"><img src="images/JPG16.jpg"></div>
+        <div data-role="header" data-position="fixed">
+            <a href="#p5">返回</a>
+        </div>
+    </div>
+    </div>
+    <div id = "p5-3" data-role="page">
+        <div data-role="header" align = "center"><h3>怪物彈珠</h3></div>
+        <div role = "show" class = "u1-content"><img src="images/JPG17.png"></div>
+        <div data-role="header" data-position="fixed">
+            <a href="#p5">返回</a>
+        </div>
+    </div>
+    </div>
+
+
+    <div id ="p6" data-role="page">
+        <div data-role="header" align="center"><a href = #p0>返回</a><h3>水果</h3></div>
+        <div role="game" class="u1-content">
+            <u1 data-role="listview">
+                <li><a href="#p6-1">蘋果</a></li>
+                <li><a href="#p6-2">香蕉</a></li>
+                <li><a href="#p6-3">水梨</a></li>
+            </u1>
+            </div>
+        </div>
+    </div>
+    <div id = "p6-1" data-role="page">
+        <div data-role="header" align = "center"><h3>蘋果</h3></div>
+        <div role = "fruit" class = "u1-content"><img src="images/JPG18.jpg"></div>
+        <div data-role="header" data-position="fixed">
+            <a href="#p6">返回</a>
+        </div>
+    </div>
+    </div>
+    <div id = "p6-2" data-role="page">
+        <div data-role="header" align = "center"><h3>香蕉</h3></div>
+        <div role = "fruit" class = "u1-content"><img src="images/JPG19.jpg"></div>
+        <div data-role="header" data-position="fixed">
+            <a href="#p6">返回</a>
+        </div>
+    </div>
+    </div>
+    <div id = "p6-3" data-role="page">
+        <div data-role="header" align = "center"><h3>水梨</h3></div>
+        <div role = "fruit" class = "u1-content"><img src="images/JPG20.jpg"></div>
+        <div data-role="header" data-position="fixed">
+            <a href="#p6">返回</a>
+        </div>
+    </div>
+    </div>
+    
+                                
